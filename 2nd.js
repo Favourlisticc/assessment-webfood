@@ -6,12 +6,10 @@
             return !!e && "object" == typeof e && "[object RegExp]" !== (r = Object.prototype.toString.call(e)) && "[object Date]" !== r && e.$$typeof !== t
         }
           , t = "function" == typeof Symbol && Symbol.for ? Symbol.for("react.element") : 60103;
-        function cloneUnlessOtherwiseSpecified(e, t) {
-            return !1 !== t.clone && t.isMergeableObject(e) ? deepmerge(Array.isArray(e) ? [] : {}, e, t) : e
-        }
+
         function defaultArrayMerge(e, t, r) {
             return e.concat(t).map(function(e) {
-                return cloneUnlessOtherwiseSpecified(e, r)
+                return cneUnlessOtherwiseSpecified(e, r)
             })
         }
         function getKeys(e) {

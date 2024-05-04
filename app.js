@@ -30853,7 +30853,7 @@ If this message still persists after updating, please report an issue: https://g
                     rel: "noreferrer",
                     children: (0,
                     j.jsx)("img", {
-                        src: "https://assets.wholefoodsmarket.com/PIE/pinto-assets/logo-pinto-white.svg",
+                        // src: "https://assets.wholefoodsmarket.com/PIE/pinto-assets/logo-pinto-white.svg",
                         alt: "Powered by Pinto"
                     })
                 }), (0,
